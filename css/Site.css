@@ -1,0 +1,58 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+.jumbotron {
+    text-align: center;
+    height: 400px;
+    background-image: url(https://www.gamingdeluxe.co.uk/media/sliders/dedicated-server-slider-39.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    width: 100%;
+}
+.jumbotron h1 {
+    padding-top: 50px;
+}
+#section-1 {
+    margin-top: 1%;
+    background-color: red;
+    height: 500px;
+    text-align: center;    
+}
+#image-1 {
+    background-image: url(http://9dailytips.com/wp-content/uploads/2015/07/Dedicated-Serve.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+#text-1 {
+    background-color: #1E88E5;
+    height: 500px;
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+}
+#text-1 h2 {
+    color: white;
+}
