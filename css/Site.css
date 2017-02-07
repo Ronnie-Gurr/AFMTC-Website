@@ -56,3 +56,12 @@ textarea {
 #text-1 h2 {
     color: white;
 }
+#contact-form {
+    margin-top: 50px;
+}
+#map {
+    margin-top: 50px;
+    height: 400px;
+    width: 600px;
+    border: 1px solid black;
+}
