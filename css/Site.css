@@ -63,31 +63,44 @@ textarea {
     text-align: center;
     margin-left: 450px;
 }
-#box-1 {
-    margin-top: 1%;
-    height: 500px;
-    text-align: center; 
-    padding-left: 395px;
-}
-#about-text-1 {
-    font-size: 20px;    
-    background-color: #1E88E5;
-    height: 500px;
-    color: white;
+#heading-2 {
     text-align: center;
-    padding: 50px;
+    margin-right: 20px;
 }
-#image-2 {
-    background-image: url("../images/img-1.jpg");
-    height: 500px;
-    background-repeat: no-repeat;
-    background-size: cover;
-}#contact-form {
-    margin-top: 50px;
+.hr-1 {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid;
+    margin: 0 auto;
+    padding: 0;
+    border-color:  #1E88E5;
+    width: 1000px;
+    vertical-align: center;
+
 }
-#map {
-    margin-top: 50px;
-    height: 400px;
-    width: 600px;
-    border: 1px solid black;
+.text-1 {
+    text-align: center;
+}
+.pic-1 {
+    float: right;
+    border-radius: 3%;
+}
+.text-2 {
+    margin-top: 150px;
+    text-align: left; 
+     line-height: 34px;
+
+}
+.button-1 {
+    color: #1E88E5;
+}
+.pic-2 {
+    display: none;
+ 
+}
+.somethingquick {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
 }
