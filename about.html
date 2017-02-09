@@ -86,10 +86,19 @@
             <h2>Web Hosting</h2>
                 <p> We provide web hosting on are premeeum sever room </p>
                     <div class="picSlide">
-                        <img class="pic-1" src="images/img2.jpg" width="736">
-                        <img class="pic-2" src="images/img3.jpg" width="736">
-                        <img class="pic-2" src="images/img4.jpg" width="736">
+                        <div class="mySlides fade">
+                        <img class="pic-1" src="images/img2.jpg" width="1000px" height="500px">
+                        </div>
+
+                        <div class="mySlides fade">
+                        <img class="pic-2" src="images/img3.jpg" width="1000px" height="500px">
+                        </div>
+
+                        <div class="mySlides fade">
+                        <img class="pic-2" src="images/img4.jpg" width="1000px" height="500px">
+                        </div>
                     </div>
+
 
                     <p class="text-2"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu ex nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada
                     fames ac turpis egestas. Mauris quis dolor non erat aliquet facilisis. Morbi faucibus nisi eu massa efficitur volutpat. Cras et nunc eros.
@@ -100,44 +109,23 @@
 
                         <!-- Georges Java for slideShow starts here -->
                             <script>
-                             var slideshow = 0;
-                             carousel();
+                  var slideIndex = 0;
+                showSlides();
 
-                             function carousel() {
-                                var i;
-                                var x = document.getElementByClassName("picSlide");
-                                for (i = 0; i < x.length; i++) {
-                                    x[i].style.display = "none";
-                             }
-                                slideshow++;
-                                if (slideshow > x.length) {slideshow = 1}
-                                    x[slideshow - 1].style.display = "block";
-                                setTimeout(carousel, 2000);
-                            }
+                function showSlides() {
+                    var i;
+                    var slides = document.getElementsByClassName("mySlides");
+                    for (i = 0; i < slides.length; i++) {
+                       slides[i].style.display = "none";  
+                    }
+                    slideIndex++;
+                    if (slideIndex> slides.length) {slideIndex = 1}    
+                    slides[slideIndex-1].style.display = "block";  
+                    setTimeout(showSlides, 4000);
+                }
 
                             </script>
                             <!-- End of js -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     </div>
      <div>

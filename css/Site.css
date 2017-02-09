@@ -92,3 +92,24 @@ textarea {
     width: 600px;
     border: 1px solid black;
 }
+.mySlides {
+    display: none;
+}
+.picSlide {
+  max-width: 1000px;
+  height: 500px;
+  position: relative;
+  margin: auto;
+  border: 1px solid black;
+  margin-top: 50px;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 5s;
+  animation-name: fade;
+  animation-duration: 5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
