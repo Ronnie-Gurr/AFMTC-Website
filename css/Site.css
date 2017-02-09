@@ -92,6 +92,7 @@ textarea {
     width: 600px;
     border: 1px solid black;
 }
+<<<<<<< HEAD
 .mySlides {
     display: none;
 }
@@ -112,4 +113,75 @@ textarea {
 @-webkit-keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
+=======
+#section-1 {
+    margin-top: 1%;
+    background-color: red;
+    height: 500px;
+    text-align: center;    
+}
+#image-1 {
+    background-image: url(http://9dailytips.com/wp-content/uploads/2015/07/Dedicated-Serve.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+#text-1 {
+    background-color: #1E88E5;
+    height: 500px;
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+}
+#text-1 h2 {
+    color: white;
+}
+.test-font {
+    font-family: 'Lobster', monospace;
+}
+#heading-1 {
+    text-align: center;
+    margin-left: 450px;
+}
+#heading-2 {
+    text-align: center;
+    margin-right: 20px;
+}
+.hr-1 {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid;
+    margin: 0 auto;
+    padding: 0;
+    border-color:  #1E88E5;
+    width: 1000px;
+    vertical-align: center;
+
+}
+.text-1 {
+    text-align: center;
+}
+.pic-1 {
+    float: right;
+    border-radius: 3%;
+}
+.text-2 {
+    margin-top: 150px;
+    text-align: left; 
+     line-height: 34px;
+
+}
+.button-1 {
+    color: #1E88E5;
+}
+.pic-2 {
+    display: none;
+ 
+}
+.somethingquick {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+>>>>>>> origin/master
 }
