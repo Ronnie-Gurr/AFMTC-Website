@@ -25,7 +25,7 @@ textarea {
 .jumbotron {
     text-align: center;
     height: 400px;
-    background-image: url(https://www.gamingdeluxe.co.uk/media/sliders/dedicated-server-slider-39.jpg);
+    background-image: url("../images/server.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -41,7 +41,7 @@ textarea {
     text-align: center;    
 }
 #image-1 {
-    background-image: url(http://9dailytips.com/wp-content/uploads/2015/07/Dedicated-Serve.jpg);
+    background-image: url("../images/servers.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
@@ -82,7 +82,8 @@ textarea {
     height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
-}#contact-form {
+}
+#contact-form {
     margin-top: 50px;
 }
 #map {
